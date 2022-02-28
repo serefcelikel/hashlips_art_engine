@@ -1,31 +1,77 @@
-{
-  "name": "hashlips_art_engine",
-  "version": "1.1.1",
-  "description": "HashLips Art Engine is a tool used to create multiple different instances of artworks based on provided layers.",
-  "main": "index.js",
-  "bin": "index.js",
-  "pkg": {
-    "assets": [
-      "layers/**/*",
-      "node_modules/**/*",
-      "src/**/*"
+[
+  {
+    "description": "This is a sample description",
+    "attributes": [
+      {
+        "trait_type": "Trait1",
+        "value": "Value1"
+      },
+      {
+        "trait_type": "Trait2",
+        "value": "Value2"
+      },
+      {
+        "trait_type": "Trait3",
+        "value": "Value3"
+      },
+      {
+        "trait_type": "Trait4",
+        "value": "Value4"
+      },
+      {
+        "trait_type": "Trait5",
+        "value": "Value5"
+      }
     ]
   },
-  "scripts": {
-    "build": "node index.js",
-    "generate": "node index.js",
-    "rarity": "node utils/rarity.js",
-    "preview": "node utils/preview.js",
-    "pixelate": "node utils/pixelate.js",
-    "update_info": "node utils/update_info.js",
-    "preview_gif": "node utils/preview_gif.js",
-    "generate_metadata": "node utils/generate_metadata.js"
+  {
+    "description": "This is a sample description",
+    "attributes": [
+      {
+        "trait_type": "Trait1",
+        "value": "Value2"
+      },
+      {
+        "trait_type": "Trait2",
+        "value": "Value5"
+      },
+      {
+        "trait_type": "Trait3",
+        "value": "Value1"
+      },
+      {
+        "trait_type": "Trait4",
+        "value": "Value3"
+      },
+      {
+        "trait_type": "Trait5",
+        "value": "Value4"
+      }
+    ]
   },
-  "author": "Daniel Eugene Botha (HashLips)",
-  "license": "MIT",
-  "dependencies": {
-    "canvas": "^2.8.0",
-    "gif-encoder-2": "^1.0.5",
-    "sha1": "^1.1.1"
+  {
+    "description": "This is a sample description",
+    "attributes": [
+      {
+        "trait_type": "Trait1",
+        "value": "Value5"
+      },
+      {
+        "trait_type": "Trait2",
+        "value": "Value3"
+      },
+      {
+        "trait_type": "Trait3",
+        "value": "Value4"
+      },
+      {
+        "trait_type": "Trait4",
+        "value": "Value1"
+      },
+      {
+        "trait_type": "Trait5",
+        "value": "Value2"
+      }
+    ]
   }
-}
+]
